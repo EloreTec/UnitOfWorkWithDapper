@@ -33,9 +33,6 @@ namespace UnitOfWorkWithDapper.Sample.Core.Contexts
             var cnn = factory.CreateConnection();
             cnn.ConnectionString = config.ConnectionString;
 
-            // opens connection
-            cnn.Open();
-
             return cnn;
         }
     }

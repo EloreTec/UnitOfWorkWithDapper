@@ -69,6 +69,9 @@ namespace UnitOfWorkWithDapper.Core
         {
             _connection = CreateConnection();
 
+            // opens connection
+            _connection.Open();
+
             DebugPrint("Connection started.");
         }
 
