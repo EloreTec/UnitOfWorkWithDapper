@@ -1,2 +1,2 @@
 # UnitOfWorkWithDapper
-Unit of work com Dapper.NET
+Unit of work with Dapper.NET
